@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import logo from '../../public/logo.png'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -17,8 +18,8 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
+            DASHBOARD&nbsp;
+            <code className={styles.code}>Pratheesh S Nair</code>
           </p>
           <div>
             <a
@@ -42,10 +43,10 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            src={logo}
+            alt="OWPC Loyalty Logo"
+            // width={180}
+            // height={37}
             priority
           />
         </div>
