@@ -7,6 +7,18 @@
   min-height: 100vh;
 }
 
+.owpmMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 6rem; */
+background-repeat: no-repeat !important;
+min-height: 100vh;
+
+}
+
+
 .description {
   display: inherit;
   justify-content: inherit;

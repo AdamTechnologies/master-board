@@ -1,0 +1,37 @@
+.myNewStyle {
+    background-color: '#d3e0d2';
+    border: 1px solid #e0e2e2;
+    border-radius: '5px';
+    margin: 4px 0 4px 0;
+    color: rgb(53, 53, 53);
+  }
+
+  .backDashBoard{
+    background-color: rgb(246, 247, 248);
+    border: 1px solid #dbdbdb;
+    border-radius: '5px';
+    margin: 4px 0 4px 0;
+    color: rgb(53, 53, 53);
+  }
+
+  .navDashBoard{
+    background-color: rgb(246, 247, 248);
+    /* border: 1px solid #dbdbdb; */
+    border-radius: '5px' !important;
+    margin: 4px 0 4px 0;
+    color: rgb(53, 53, 53);
+    font-size: bold;
+  }
+
+  .active{
+background-color: rgb(246, 247, 248);
+  }
+
+  .navBgDashBoard{
+    background-color: rgb(246, 247, 248);
+    border-bottom: 1px solid rgb(220, 227, 222);
+    font-weight: 500;
+  }
+  .mactive{
+    background-color: green;
+  }
